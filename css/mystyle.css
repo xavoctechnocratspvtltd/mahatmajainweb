@@ -1,0 +1,346 @@
+ /*Define Your Custom CSS*/
+.header {
+z-index: 999 !important;
+}
+
+h3 span.h-span{
+    font-size: 1.50rem;
+    color:#fff;
+}
+
+.info-section  ul   li span.h-span   {
+    font-size:1.0em;
+    color:#fff;
+}
+
+h2 span.h-span {
+    color:#fff;
+}
+
+.event{
+    margin:20px;
+    padding:10px;
+}
+
+.navbar .xepan-brand img {
+    width:150px;
+    height:150px;
+      border-radius:50%;
+}
+    
+    .navbar-brand-wrapper{
+       width:180px;
+    }
+    
+#xepan-2924abfa-01eb-4f46-9546-a5f1406836db{
+    padding:10px 0;
+}
+
+.formwala-course-single a  h3{
+    width:250px;
+}
+
+
+.register-form{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #eee;
+}
+
+.register-form h2{
+    font-weight:normal;
+    font-style:italic;
+}
+
+.flip-container {
+  perspective: 1000;
+  display: inline-block;
+}
+
+.flip-container a h3{
+    color:#fff;
+}
+
+.flip-container:hover .card {
+  transform: rotateY(180deg);
+}
+.card, .front, .back {
+  width: 250px;
+  height: 200px;
+}
+.card {
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  position: relative;
+  margin:0 auto;
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.front  img,  .back img {
+    border-radius:50%;
+    width:200px;
+    height:200px;
+}
+
+.back {
+  z-index: 1;
+  transform: rotateY(180deg);
+  
+}
+
+.front {
+  z-index: 2; /* back side, placed above front */
+  transform: rotateY(0deg);
+}
+
+#xepan-6b64d5cb-9819-468e-cb36-c9f934c2fd78 ,#xepan-083be375-8702-43a0-a438-0260969355db, .navbar{
+margin-bottom:0px !important;
+}
+
+.header{
+    padding-top:0px !important;
+    padding-bottom:0px !important;
+}
+
+#xepan-boostrap-ul li a:hover{
+    background-color:#e79800;
+  	padding:5px;
+  	color:#fff !important;
+}
+
+.our-process h2, .call-to-action h2{
+color: #f06022 !important;
+} 
+
+.button .secondary {
+    background-color: #f06022 !important;
+}
+
+.link-section .flip-container  a  h3, .link-section .flip-container .back p a{
+    color:#000;
+}
+
+.application-form .panel-default .panel-heading {
+    background-color:#25607e !important;
+    font-weight:bold;
+    text-align:center;
+    color:#fff !important;
+}
+
+.application-form #c132539f__form_form_submit{
+    width:100px !important;
+    margin:0  auto;
+  	background-color:#f06022;
+  	border: 1px solid #f06022;
+}
+
+.application-form .atk-form-row #c132539f__form_view_address {
+  height:0px;
+}
+
+.field-error-text, .section-title ul li {
+  color:red;
+}
+
+.marque-text p{
+  color:#fff;
+  padding:10px 0;
+}
+
+
+.information-boxes .courses-info,.information-boxes .faculty-info{
+  min-height:145px !important;
+}
+
+#slideout-1 {
+      position: fixed;
+      top: 220px;
+      left: 0;
+      width: 35px;
+      padding: 12px 0;
+      text-align: center;
+      background: #e79800;
+      -webkit-transition-duration: 0.3s;
+      -moz-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-border-radius: 0 5px 5px 0;
+      -moz-border-radius: 0 5px 5px 0;
+      border-radius: 0 5px 5px 0;
+  		z-index:9999;
+    }
+
+    #slideout_inner-1 {
+      position: fixed;
+      top: 100px;
+      left: -280px;
+      background: #000;
+      width: 250px;
+      padding: 25px;
+      height: 400px;
+      -webkit-transition-duration: 0.3s;
+      -moz-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      text-align: left;
+      -webkit-byyorder-radius: 0 0 5px 0;
+      -moz-border-radius: 0 0 5px 0;
+      border-radius: 0 0 5px 0;
+      z-index:9999;
+    }
+
+    #slideout_inner-1 textarea{
+      width: 190px;
+      height: 20px;
+      margin-bottom: 6px;
+    }
+
+    #slideout_inner-1 input {
+      width: 190px;
+    }
+
+	#slideout_inner-1 label span {
+      color:#fff !important;
+	}
+
+	#slideout_inner-1 button {
+      background-color:#f06022;
+      padding:5px;
+      margin:5px 0;
+      border-radius:3px;
+      color:#fff;
+   }
+
+    #slideout-1:hover {
+      left: 250px;
+    }
+
+    #slideout-1:hover #slideout_inner-1 {
+      left: 0;
+    }
+
+.footer-social-icons{
+  margin:0px 975px 0px !important;
+}
+
+.footer-social-icons .xepan-cms-icon {
+  border-radius:5px;
+}
+ 
+.teacher-links .small-button{
+  display:none !important;
+}
+
+
+.select2-selection{
+  margin-bottom: 20px !important;
+  display: block;
+  height: 2.4375rem !important;
+ border: 1px solid #cacaca;
+ margin: 0 0 1rem;
+ font-size: 1rem;
+ color: #0a0a0a;
+  background-color: #fefefe;
+ box-shadow: inset 0 1px 2px hsla(0,0%,4%,.1);
+ border-radius: 0;
+ transition: box-shadow .5s,border-color .25s ease-in-out;
+ -webkit-appearance: none;
+ -moz-appearance: none;
+}
+.select2-container--default .select2-selection--single{
+  background-color: #fefefe !important;
+  border-radius:0px !important;
+  border: 1px solid #cacaca !important;
+ 	margin: 0 0 1rem !important;
+ 	font-size: 1rem !important;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar-brand-wrapper {
+        width:300px;
+      	max-width:300px;
+    }
+}
+
+marquee{
+  height:40px !important;
+}
+
+.custom-form button{
+  padding:10px;
+  background-color:#f06022;
+  color:white;
+  font-weight:bold;
+  border: 2px solid #f06022;
+}
+
+.header #xepan-boostrap-ul li:nth-child(odd) {
+  padding:5px;
+  font-weight:bold;
+  \\border-bottom-left-radius: 15px;
+  \\border-bottom-right-radius: 15px;
+}
+
+.header #xepan-boostrap-ul li:nth-child(even) {
+  padding:5px;
+  font-weight:bold;
+  \\border-bottom-right-radius: 15px;
+}
+
+.navbar-nav>li>a {
+  padding:5px !important;
+}
+
+.header #xepan-boostrap-ul li a {
+  color:#e79800;
+}
+
+.header #xepan-boostrap-ul {
+  padding:20px !important;
+}
+
+.info-section .owl-stage img {
+  border-radius:0% !important;
+}
+
+.info-section .teacher .teacher-thumb {
+  border:0px !important;
+}
+
+.seminar-events,.footerTop,.bg-image {
+  padding:0 !important;
+}
+
+.event-column {
+  background-color:rgba(0,0,0,0.8) !important;
+}
+
+ .bg-white {
+   background-color:rgba(255,255,255,0.8) !important;
+}
+
+.footer-column{
+  background-color:rgba(0,0,0,0.8) !important;
+}
+
+ .blogs {
+  margin-left: 40px !important;
+}
+
+.footerTop .row {
+  width:100%;
+  max-width:100%;
+  margin:0;
+}
+
+.section-title-wrapper::after {
+  content:"\8124" !important;
+}
+  .new-members  .blog .row .col-md-12 a img{
+      width: 40px !important;
+      height: 40px !important;
+      border-radius :5px !important;
+  }
