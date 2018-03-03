@@ -1,0 +1,44 @@
+<div class="row {$class}" id="{$_name}" style="undefined {$style}">
+                
+                <div class="posts-wrapper">
+                    
+                    {rows}{row}<div class="medium-4 small-12 columns xepan-component xepan-selected-component xepan-component-hover-selector" xepan-component-name="Generic" id="xepan-cd9432d4-aba8-43ab-dc81-df97e0959ed0" scrollamount="">
+                        <div class="post">
+                            {image_wrapper}<div class="post-thumb">
+
+                            	<a href="#" class="">
+	                            	<img src="{$image}" alt="My Blog post"></a>    
+                            </div>{/}
+<!-- Thumb /-->
+                            {description_wrapper}<div class="post-content xepan-component" xepan-component-name="Generic" id="xepan-cc311e99-f5f5-488a-df9b-95ed8bb7032f" scrollamount="">
+                            	{title_wrapper}<h4 class="" xepan-component-name="Generic" contenteditable="true"><a href="{$url}">{$title}</a></h4>{/}
+                                
+                                <p class="" xepan-component-name="Generic" id="xepan-db4bfb95-9388-430c-ca91-ba0c93298d5d" contenteditable="true">{$description}</p>
+                            </div>{/}
+<!-- post content /-->
+                        </div>
+<!-- Post /-->
+                	</div>{/}{/}{not_found}<div role="alert" class="full-width alert alert-warning"><strong class="glyphicon glyphicon-warning-sign">&nbsp;Warning!<span>&nbsp;{not_found_message}Not Matching Record Found{/}</span></strong></div>{/}{paginator_wrapper}{$Paginator}{/}
+
+
+
+
+
+
+<!-- Post column /-->
+                    
+                    
+<!-- Post column /-->
+                    
+                    
+<!-- Post column /-->
+                    
+                </div>
+<!-- Posts Wrapper /-->
+                
+                <div class="load-more text-center">
+                	<a href="news" class="button primary bordered-dark xepan-component" id="xepan-322c65fe-bffb-461b-9a54-414b1da1994f" xepan-component="xepan/cms/Tool_Button" xepan-button-label="Load More..." xepan-button-link="#">Load More...</a>
+                </div>
+<!-- Load more /-->
+                
+            </div>

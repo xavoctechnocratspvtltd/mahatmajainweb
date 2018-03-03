@@ -23,19 +23,15 @@ h2 span.h-span {
 }
 
 .navbar .xepan-brand img {
-    width:150px;
-    height:150px;
-      border-radius:50%;
+    width:120px;
+    height:120px;
+      border-radius:100%;
 }
     
     .navbar-brand-wrapper{
        width:180px;
     }
     
-#xepan-2924abfa-01eb-4f46-9546-a5f1406836db{
-    padding:10px 0;
-}
-
 .formwala-course-single a  h3{
     width:250px;
 }
@@ -107,7 +103,7 @@ margin-bottom:0px !important;
 
 #xepan-boostrap-ul li a:hover{
     background-color:#e79800;
-  	padding:5px;
+      padding:5px;
   	color:#fff !important;
 }
 
@@ -299,7 +295,7 @@ marquee{
 }
 
 .header #xepan-boostrap-ul {
-  padding:20px !important;
+  padding:30px !important;
 }
 
 .info-section .owl-stage img {
@@ -344,3 +340,62 @@ marquee{
       height: 40px !important;
       border-radius :5px !important;
   }
+
+.matrimonial-male .profile-img, .matrimonial-female .profile-img,
+.new-members-list .profile-img,
+.condolence-list img {
+  border-radius:50% !important;.
+  height:180px !important;
+  width:100% !important;
+  border: 3px solid #e79802 !important;
+}
+
+.profile-list .profile-wrapper .person-img {
+  border-radius:50% !important;.
+  height:150px !important;
+  width:150px !important;
+  border: 3px solid #e79802 !important;
+}
+
+.executive-members .profile-img {
+  border-radius:50% !important;
+  height:250px !important;
+  width:100% !important;
+  border: 3px solid #e79802 !important;
+}
+
+.matrimonial-section .matrimonial-male .profile-img, .matrimonial-section .matrimonial-female .profile-img {
+  border-radius:50% !important;
+  height:200px !important;
+  width:100% !important;
+  border: 3px solid #e79802 !important;
+}
+
+.profile-list .single-post {
+  margin:10px 0 !important;
+  padding:10px  !important;
+  border: 3px solid #eee !important;
+}
+
+.new-members-list .our-teachers, .executive-members .our-teachers {
+  text-align:center;
+}
+
+.matrimonial-male .person-name, .matrimonial-female .person-name {
+  color:#fff;
+  text-align:center;
+  font-weight:none !important;
+}
+
+.matrimonial-section .matrimonial-male .person-name, .matrimonial-section .matrimonial-female .person-name {
+  color:#000;
+  text-align:center;
+}
+
+.newspaper-section .row span img {
+  height:300px;
+  width:100%;
+}
+.event-post  span img{
+ height:300px!important; 
+}

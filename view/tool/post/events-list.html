@@ -1,0 +1,43 @@
+<div class="row {$class}" id="{$_name}" style="undefined {$style}">
+                
+                <div class="posts-wrapper">
+                    
+                    {rows}{row}<div class="events-wrapper" style="display: block;">
+   <div class="medium-6 small-12 columns xepan-component" xepan-component-name="Generic" id="xepan-c5e6e6c0-3bc5-4624-c332-d0eba400d82b" scrollamount="" style="">
+      <div class="event">
+         <div class="medium-8 small-12 columns event-data">
+            {title_wrapper}<h4 class="xepan-editable-text xepan-no-richtext" xepan-component-name="Generic" contenteditable="true">{$title}</h4>{/}
+            {description_wrapper}<p class="xepan-editable-text" xepan-component-name="Generic" contenteditable="true">{$description}</p>{/}
+         </div>
+         <!-- Event DAta /-->
+         <div class="medium-4 small-12 columns event-thumb">
+            {image_wrapper}<span class="xepan-component" xepan-component="xepan/cms/Tool_Image" xepan-component-name="Image" id="xepan-01443612-eb3e-49c6-b851-ddf300d48877"><img src="{$image}" alt="PHP Course" class="xepan-component" xepan-component-name="Generic" id="xepan-dfde673e-8efd-4dba-9caa-bf7c428871a0" scrollamount=""></span>{/}
+         </div>
+         <!-- Event thumb /-->      
+         <div class="clearfix"></div>
+      </div>
+      <!-- Event div ends /-->
+   </div>
+   <!-- Event Column Ends /-->
+</div>
+{/}{/}{not_found}<div role="alert" class="full-width alert alert-warning"><strong class="glyphicon glyphicon-warning-sign">&nbsp;Warning!<span>&nbsp;{not_found_message}Not Matching Record Found{/}</span></strong></div>{/}{paginator_wrapper}{$Paginator}{/}
+
+
+
+
+
+
+<!-- Post column /-->
+                    
+                    
+<!-- Post column /-->
+                    
+                    
+<!-- Post column /-->
+                    
+                </div>
+<!-- Posts Wrapper /-->
+                
+                
+                
+            </div>

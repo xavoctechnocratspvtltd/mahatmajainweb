@@ -1,0 +1,28 @@
+<div id="{$_name}" style="{$style}" class="{$class} row">
+   {rows}{row}
+ <div class="blog">
+<div xepan-component="xepan/cms/Tool_Columns" style="min-height:20px;" xepan-component-name="Row/Columns" class="row xepan-component xepan-selected-component xepan-component-hover-selector" id="xepan-7bb15833-7426-476c-a275-7b0d9bf08797">
+      <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 4" data-toolcolumnclass="xepan-tool-column" data-lg="4" data-md="4" data-sm="4" data-xs="4" xepan-component-name="Column" class="xepan-cms-column xepan-sortable-component xepan-component ui-sortable col-lg-4 col-md-4 col-sm-4 col-xs-4" id="xepan-cff0401a-051d-4f77-f20c-e51139b0cb01"><span xepan-component="xepan/cms/Tool_Image" xepan-component-name="Image" class="xepan-component" scrollamount="" id="xepan-1d05fbbe-49dc-430a-d9c7-d01d3b879b86">{image_wrapper}<img src="{$image}" style="max-width:100%; height: 100%; width:100%" data-extra-classes="" alt="Image" class="ui-resizable">{/}</span></div>
+      <div class="our-teachers module xepan-component" scrollamount="" style="display: block; margin-bottom: auto;" id="xepan-7633d1f2-6aa3-4a56-b937-68e1a740b78d">
+               <div class="teacher-meta">
+               {title_wrapper}
+               <h3>{$title}</h3>
+               {/}
+               {description_wrapper}
+               <p>{$description}</p>
+               {/}
+            </div>
+      </div>
+</div>
+</div>
+</div>
+<div style="padding-bottom:25px;"></div>
+   {$micro_data}
+   {/}{/}
+   {not_found}
+   <div role="alert" class="full-width alert alert-warning"><strong class="glyphicon glyphicon-warning-sign">&nbsp;Warning!<span>&nbsp;{$not_found_message}</span></strong></div>
+   {/}
+   {paginator_wrapper}
+   <div style="float:none; clear:both" class="xshop-item-paginator">{$Paginator}</div>
+   {/}	
+</div>

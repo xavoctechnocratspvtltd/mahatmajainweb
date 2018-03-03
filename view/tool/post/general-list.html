@@ -1,0 +1,30 @@
+<div id="{$_name}" style="{$style}" class="{$class} row">
+   {rows}{row}
+   <div class="blog">
+         <div xepan-component="xepan/cms/Tool_Column" emptytext="Column 6" data-toolcolumnclass="xepan-tool-column" data-lg="6" data-md="6" data-sm="12" data-xs="12" xepan-component-name="Column" class="xepan-cms-column col-md-6 col-sm-12 col-xs-12 xepan-sortable-component xepan-component ui-sortable col-lg-6" scrollamount="" id="xepan-698845f1-a54f-4cbc-daee-4cedf7b40366">
+<div class="our-teachers module xepan-component" scrollamount="" style="display: block; margin-bottom: auto;" id="xepan-7633d1f2-6aa3-4a56-b937-68e1a740b78d">
+
+                     <div class="teacher-thumb">
+                        {image_wrapper}<img alt="Teacher Doe" src="{$image}"><!-- teacher links /-->{/} 
+                     </div>
+                     <div class="teacher-meta">
+                        {title_wrapper}
+                        <h3>{$title}</h3>
+                        {/}
+                        {description_wrapper}
+                        <p>{$description}</p>
+                        {/}
+                     </div>
+                  </div>
+               </div>
+   </div>
+
+   {$micro_data}
+   {/}{/}
+   {not_found}
+   <div role="alert" class="full-width alert alert-warning"><strong class="glyphicon glyphicon-warning-sign">&nbsp;Warning!<span>&nbsp;{$not_found_message}</span></strong></div>
+   {/}
+   {paginator_wrapper}
+   <div style="float:none; clear:both" class="xshop-item-paginator">{$Paginator}</div>
+   {/}	
+</div>

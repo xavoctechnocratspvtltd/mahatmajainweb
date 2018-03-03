@@ -1,0 +1,41 @@
+<div id="{$_name}" class="{$class} listing-profilelist" style="{$style}">
+  {Pannel}
+    <header class="clearfix atk-actions  {$class} ">
+      <div class="filter-block">
+        <div class="pull-right">{$grid_buttons} </div>
+        <div class="form-group pull-right xepan-filter-form">
+        </div>
+      </div>
+    </header>
+  {/Pannel}
+  {rows}
+  {row}
+    <div class="row single-list">
+      <div class="col-md-3 col-sm-12 col-xs-12 col-lg-3 profile-wrapper">
+        {image_wrapper}
+          <img class="person-img center-block" src="{$image}">
+        {/}
+      </div>
+      <div class="col-md-9 col-sm-12 col-xs-12 col-lg-9 profile-description">
+        {name_wrapper}
+          <h3 class="person-name">{$name}</h3>
+        {/}
+		{age_wrapper}
+          <p class="person-age">{$age}</p>
+        {/}
+		{gender_wrapper}
+          <p class="gender">{$gender}</p>
+        {/}
+        {DOB_wrapper}
+          <p class="dob">{$DOB}</p>
+        {/}
+        {gautra_wrapper}
+          <p class="gautra">{$gautra}</p>
+        {/}
+      </div>
+    </div>
+
+  {/}
+  {/}
+  {$not_found}
+</div>

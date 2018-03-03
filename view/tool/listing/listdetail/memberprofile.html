@@ -1,0 +1,212 @@
+<div id="{$_name}" class="{$class}" style="{$style}">
+	<div class="row">
+		<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4">
+			{profile_image_wrapper}
+				<img src="{$person_image}">
+			{/}
+		</div>
+		<div class="col-md-8 col-sm-12 col-xs-12 col-lg-8">
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+					{person_name_wrapper}
+						<h5>Name :</h5>
+					{/}
+
+					{dob_wrapper}
+						<h5>Date of Birth :</h5>
+					{/}
+
+					{gender_wrapper}
+						<h5>Gender :</h5>
+					{/}
+
+					{gautra_wrapper}
+						<h5>Gautra :</h5>
+					{/}
+
+					{email_id_wrapper}
+						<h5>Email Id :</h5>
+					{/}
+
+					{mobile_number_wrapper}
+						<h5>Mobile Number :</h5>
+					{/}
+
+					{postal_address_wrapper}
+						<h5>Postal Address :</h5>
+					{/}
+
+					{city_village_wrapper}
+						<h5>City/Village :</h5>
+					{/}
+
+					{village_wrapper}
+						<div>{$village}</div>
+					{/}
+
+					{state_wrapper}
+						<h5>State :</h5>
+					{/}
+
+					{pin_code_wrapper}
+						<h5>Pin Code :</h5>
+					{/}
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+					{person_name_wrapper}
+						<div style="font-size: 20px;">{$person_name}</div>
+					{/}
+					
+					{dob_wrapper}
+						<div>{$dob}</div>
+					{/}
+					
+					{gender_wrapper}
+						<div>{$gender}</div>
+					{/}
+					
+					{gautra_wrapper}
+						<div>{$gautra}</div>
+					{/}
+					
+					{email_id_wrapper}
+						<div>{$email_id}</div>
+					{/}
+
+					{mobile_number_wrapper}
+						<div>{$mobile_number}</div>
+					{/}
+
+					{postal_address_wrapper}
+						<div>{$postal_address}</div>
+					{/}
+
+					{city_village_wrapper}
+						<div>{$city_village}</div>
+					{/}
+
+					{village_wrapper}
+						<div>{$village}</div>
+					{/}
+
+					{state_wrapper}
+						<div>{$state}</div>
+					{/}
+
+					{pin_code_wrapper}
+						<div>{$pin_code}</div>
+					{/}
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>
+
+  		<!-- Nav tabs -->
+		  <ul class="nav nav-tabs" role="tablist">
+		    <li role="presentation" class="active">
+		    	<a href="#{$_name}home" aria-controls="home" role="tab" data-toggle="tab">Education & Career</a></li>
+		    <li role="presentation">
+		    	<a href="#{$_name}profile" aria-controls="profile" role="tab" data-toggle="tab">Family Details</a></li>
+		    <li role="presentation">
+		    	<a href="#{$_name}setting" aria-controls="setting" role="tab" data-toggle="tab">Setting</a></li>
+		    
+		  </ul>
+
+		<!-- Tab panes -->
+		  <div class="tab-content">
+		    <div role="tabpanel" class="tab-pane active" id="{$_name}home">
+		    	<div class="row">
+					<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+				    	{qualification_wrapper}
+							<h5>Education :</h5>
+						{/}
+
+						{education_detail_wrapper}
+							<h5>Education Detail :</h5>
+						{/}
+
+						{occupation_wrapper}
+							<h5>Occupation Detail :</h5>
+						{/}
+
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+						{qualification_wrapper}
+							<div>{$qualification}</div>
+						{/}
+
+						{qualification_wrapper}
+							<div>{$qualification}</div>
+						{/}
+
+						{occupation_wrapper}
+							<div>{$occupation}</div>
+						{/}
+					</div>
+				</div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="{$_name}profile">
+		    	<div class="row">
+					<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+				    	{father_name_wrapper}
+							<h5>Father Name :</h5>
+						{/}
+
+						{father_occupation_wrapper}
+							<h5>Father Occupation :</h5>
+						{/}
+
+						{mother_name_wrapper}
+							<h5>Mother Name :</h5>
+						{/}
+
+						{mother_occupation_wrapper}
+							<h5>Mother Occupation :</h5>
+						{/}
+
+						{no_of_brothers_wrapper}
+							<h5>No. of Brothers :</h5>
+						{/}
+
+						{no_of_sisters_wrapper}
+							<h5>No. of Sisters :</h5>
+						{/}
+
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+						{qualification_wrapper}
+							<div>{$qualification}</div>
+						{/}
+
+						{qualification_wrapper}
+							<div>{$qualification}</div>
+						{/}
+
+						{occupation_wrapper}
+							<div>{$occupation}</div>
+						{/}
+					</div>
+				</div>
+		    </div>
+		    <div role="tabpanel" class="tab-pane" id="{$_name}setting">
+		    	<div class="row">
+					<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+						{old_pwd_wrapper}
+							<h5>Old Password :</h5>
+						{/}
+
+						{new_pwd_wrapper}
+							<h5>New Password :</h5>
+						{/}
+
+						{retype_pwd_wrapper}
+							<h5>Retype Password :</h5>
+						{/}
+					</div>
+				</div>
+			</div>
+		  </div>
+	</div>
+</div>
