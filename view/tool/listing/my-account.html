@@ -1,7 +1,6 @@
 <div id="{$_name}" class="clearfix atk-table atk-table-zebra atk-table-bordered atk-table atk-table-zebra  {$class}">
   {Pannel}
-{header}
-{/header}
+{header}{/header}
   <header class="clearfix atk-actions  {$class} ">
     <div style="100%" class="filter-block">
       <div class="pull-right">{$grid_buttons} </div>
@@ -9,12 +8,16 @@
             </div>
     </div>
   </header>
+
   {/Pannel}
 <div class="our-teachers module" scrollamount="" style="display: block; margin-bottom: auto;" id="xepan-7633d1f2-6aa3-4a56b937-68e1a740b78d">
   <div class="row">    
     {rows}
     {row}	
-          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">      
+          <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"> 
+				{status_wrapper} 
+                    <p class="person-status">{$status}</p>
+                  {/}
               {image_wrapper}
                 <img class="profile-img center-block" src="{$image}" onerror="this.src='websites/mahatmajain/www/images/default-user/default_profile.png'" alt="">
               {/}
@@ -38,9 +41,12 @@
                   {state_wrapper} 
                     <p class="person-state">{$state}</p>
                   {/}
+<div class="pb_edit center-block" data-id='{$id}'><i class="fa fa-edit"></i></div>						
+					
                 </div>
 			  </div>
           </div>
+
 		{/}{/}
     
   </div></div>

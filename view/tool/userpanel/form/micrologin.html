@@ -1,0 +1,17 @@
+{login_wrapper}
+	<a href="registration" style="cursor:pointer; cursor: hand; max-width:600px;">Register / </a>
+	<a href="{$login_url}" style="cursor:pointer; cursor: hand; max-width:600px;">Login</a>
+{/}
+{logout_wrapper}
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Welcome {$username}
+    <span class="caret"></span>
+  </button>
+    <ul class="small dropdown-menu" style="background-color:#eeeeee">
+      <li><a href="my-profile" style="cursor:pointer; cursor: hand; max-width:600px;">My Account</a></li>
+	  <li><a href="privacy" style="cursor:pointer; cursor: hand; max-width:600px;">Settings</a></li>
+      <li><a href="{$logout_url}" style="cursor:pointer; cursor: hand; max-width:600px;">Logout</a></li>
+    </ul>
+</div>
+{/}

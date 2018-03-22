@@ -2,18 +2,18 @@
                 
                 <div class="posts-wrapper">
                     
-                    {rows}{row}<div class="medium-4 small-12 columns xepan-component xepan-selected-component xepan-component-hover-selector" xepan-component-name="Generic" id="xepan-cd9432d4-aba8-43ab-dc81-df97e0959ed0" scrollamount="">
+                    {rows}{row}<div class="medium-4 small-12 column "  >
                         <div class="post">
                             {image_wrapper}<div class="post-thumb">
 
-                            	<a href="#" class="">
+									<a href="{$url}" class="">
 	                            	<img src="{$image}" alt="My Blog post"></a>    
                             </div>{/}
 <!-- Thumb /-->
-                            {description_wrapper}<div class="post-content xepan-component" xepan-component-name="Generic" id="xepan-cc311e99-f5f5-488a-df9b-95ed8bb7032f" scrollamount="">
-                            	{title_wrapper}<h4 class="" xepan-component-name="Generic" contenteditable="true"><a href="{$url}">{$title}</a></h4>{/}
+                            {description_wrapper}<div class="post-content " >
+                            	{title_wrapper}<h4 class=""><a href="{$url}">{$title}</a></h4>{/}
                                 
-                                <p class="" xepan-component-name="Generic" id="xepan-db4bfb95-9388-430c-ca91-ba0c93298d5d" contenteditable="true">{$description}</p>
+                                <p class="">{$description}</p>
                             </div>{/}
 <!-- post content /-->
                         </div>

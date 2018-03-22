@@ -1,0 +1,90 @@
+<div id="{$_name}" class="xepan-grid main-box clearfix atk-table atk-table-zebra atk-table-bordered atk-table atk-table-zebra atk-table-bordered {$class}">{Pannel}
+  <header class="main-box-header clearfix atk-actions  {$class} ">
+    <div style="100%" class="filter-block">
+      <div class="pull-right">{$grid_buttons} </div>
+
+        <div class="form-group pull-right xepan-filter-form">
+          {quick_search_wrapper}
+          <span class="form-control pull-left">
+            {$quick_search}
+              {quick_search_icon}<i class="fa fa-search search-icon"></i>{/}
+          </span>
+          {/}
+        </div>
+      </div>
+  </header>{/Pannel}
+  <div class="main-box-body clearfix table">
+    <div class="table-responsive">
+      <table style="width:100%" class="table user-list table-hover">{header}
+        <thead>{cols}{col}
+              <th></th>
+            <th><span>Image</span></th>
+            <th id="{$name_sortid}">
+				Name
+			</th>
+            <th><span style="cursor:pointer; cursor: hand; max-width:600px;">Gender</span></th>
+            <th><span style="cursor:pointer; cursor: hand; max-width:600px;">Date of Birth</span></th>
+            <th><span style="cursor:pointer; cursor: hand; max-width:600px;">Contact Number</span></th>
+            <th><span style="cursor:pointer; cursor: hand; max-width:600px;">Gautra</span></th>
+			<th><span style="cursor:pointer; cursor: hand; max-width:600px;">Address</span></th>
+			<th><span style="cursor:pointer; cursor: hand; max-width:600px;">City</span></th>
+			<th><span style="cursor:pointer; cursor: hand; max-width:600px;">State</span></th>
+			<th><span style="cursor:pointer; cursor: hand; max-width:600px;">Post</span></th>
+              {/}{/}
+        </thead>{/}
+        <tbody>{rows}{row}
+          <tr data-id="{$row_id}" class="{$odd_even}">
+            {cols}{col}
+            <td>
+         
+            </td>
+			<td>
+           	 <img src="{$image}" class="profile-img">
+            </td>
+			<td>
+           	 {$name}
+            </td>
+			<td>
+           	 {$gender}
+            </td>
+			<td>
+           	 {$dob}
+            </td>
+			<td>
+           	 {$contact_no}
+            </td>
+			<td>
+           	 {$gautra}
+            </td>
+			<td>
+           	 {$address}
+            </td>
+			<td>
+           	 {$city}
+            </td>
+			<td>
+           	 {$state}
+            </td>
+			<td>
+           	 {$post}
+            </td>
+            {/}{/}
+          </tr>{/}{/}
+          {not_found}
+          <tr>
+            <td class="atk-padding-large atk-align-center"><span class="atk-label atk-effect-warning"><span class="icon-attention">&nbsp;{$not_found_message}</span></span></td>
+          </tr>{/}
+        </tbody>{totals}
+        <tfoot>
+          <tr class="totals">
+            {cols}{col}
+            <td>
+            {$content}
+            </td>
+            {/}{/}
+          </tr>
+        </tfoot>{/}
+      </table>{$Paginator}
+    </div>
+  </div>
+</div>

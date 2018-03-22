@@ -1,6 +1,10 @@
  /*Define Your Custom CSS*/
 .header {
-z-index: 999 !important;
+z-index: 1 !important;
+}
+
+body {
+  padding-right:0px !important;
 }
 
 h3 span.h-span{
@@ -36,11 +40,6 @@ h2 span.h-span {
     width:250px;
 }
 
-
-.register-form{
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: 1px solid #eee;
-}
 
 .register-form h2{
     font-weight:normal;
@@ -104,7 +103,7 @@ margin-bottom:0px !important;
 #xepan-boostrap-ul li a:hover{
     background-color:#e79800;
       padding:5px;
-  	color:#fff !important;
+      color:#fff !important;
 }
 
 .our-process h2, .call-to-action h2{
@@ -129,8 +128,8 @@ color: #f06022 !important;
 .application-form #c132539f__form_form_submit{
     width:100px !important;
     margin:0  auto;
-  	background-color:#f06022;
-  	border: 1px solid #f06022;
+      background-color:#f06022;
+      border: 1px solid #f06022;
 }
 
 .application-form .atk-form-row #c132539f__form_view_address {
@@ -158,7 +157,7 @@ color: #f06022 !important;
       width: 35px;
       padding: 12px 0;
       text-align: center;
-      background: #e79800;
+      /*background: #e79800;*/
       -webkit-transition-duration: 0.3s;
       -moz-transition-duration: 0.3s;
       -o-transition-duration: 0.3s;
@@ -166,7 +165,7 @@ color: #f06022 !important;
       -webkit-border-radius: 0 5px 5px 0;
       -moz-border-radius: 0 5px 5px 0;
       border-radius: 0 5px 5px 0;
-  		z-index:9999;
+          z-index:9999;
     }
 
     #slideout_inner-1 {
@@ -176,7 +175,7 @@ color: #f06022 !important;
       background: #000;
       width: 250px;
       padding: 25px;
-      height: 400px;
+      height: 470px;
       -webkit-transition-duration: 0.3s;
       -moz-transition-duration: 0.3s;
       -o-transition-duration: 0.3s;
@@ -186,6 +185,7 @@ color: #f06022 !important;
       -moz-border-radius: 0 0 5px 0;
       border-radius: 0 0 5px 0;
       z-index:9999;
+      
     }
 
     #slideout_inner-1 textarea{
@@ -194,8 +194,10 @@ color: #f06022 !important;
       margin-bottom: 6px;
     }
 
-    #slideout_inner-1 input {
-      width: 190px;
+   
+#slideout_inner-1 label {
+      
+  		color:white!important;
     }
 
 	#slideout_inner-1 label span {
@@ -203,7 +205,7 @@ color: #f06022 !important;
 	}
 
 	#slideout_inner-1 button {
-      background-color:#f06022;
+      background-color:#e68a00;
       padding:5px;
       margin:5px 0;
       border-radius:3px;
@@ -217,6 +219,10 @@ color: #f06022 !important;
     #slideout-1:hover #slideout_inner-1 {
       left: 0;
     }
+#slideout_inner-1 radio{
+	float:left!important;
+  	text-align:left!important;
+}
 
 .footer-social-icons{
   margin:0px 975px 0px !important;
@@ -265,12 +271,12 @@ marquee{
   height:40px !important;
 }
 
-.custom-form button{
+.custom-form button, .enquiry-form button{
   padding:10px;
-  background-color:#f06022;
+  background-color:#e68a00;
   color:white;
   font-weight:bold;
-  border: 2px solid #f06022;
+  
 }
 
 .header #xepan-boostrap-ul li:nth-child(odd) {
@@ -294,8 +300,8 @@ marquee{
   color:#e79800;
 }
 
-.header #xepan-boostrap-ul {
-  padding:30px !important;
+.header .navbar-right {
+  padding-top:20px !important;
 }
 
 .info-section .owl-stage img {
@@ -343,8 +349,8 @@ marquee{
 
 .matrimonial-male .profile-img, .matrimonial-female .profile-img,
 .new-members-list .profile-img,
-.condolence-list img {
-  border-radius:50% !important;.
+.condolence-list .teacher-thumb img {
+  border-radius:50% !important;
   height:180px !important;
   width:100% !important;
   border: 3px solid #e79802 !important;
@@ -354,9 +360,54 @@ marquee{
   border-radius:50% !important;.
   height:150px !important;
   width:150px !important;
-  border: 3px solid #e79802 !important;
 }
 
+.my-profile .profile-wrapper .person-img {
+  border-radius:50% !important;.
+  height:200px !important;
+  width:200px !important;
+  border:1px solid #eee;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.members-list .profile-img {
+  border-radius:50% !important;.
+  height:100px !important;
+  width:100px !important;
+}
+
+.members-list thead, .members-list thead th span {
+  background-color:#e79802 !important;
+  color:#fff !important;
+  border:1px solid #e79802 !important;
+}
+
+.members-list thead th {
+  text-align:center !important;
+} 
+
+.members-list tbody tr td {
+  text-align:center !important;
+  border-bottom:1px solid #eee !important;
+}
+
+.members-list tbody .even {
+  background-color:#f8f8f8 !important;
+}
+
+.table-responsive table, .bank-details, .profile-list  {
+  border:1px solid #eee;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.members-list table tbody tr {
+  min-height:100px !important;
+}
+
+.bank-details table {
+  width:568px !important;
+}
+  
 .executive-members .profile-img {
   border-radius:50% !important;
   height:250px !important;
@@ -371,10 +422,16 @@ marquee{
   border: 3px solid #e79802 !important;
 }
 
-.profile-list .single-post {
-  margin:10px 0 !important;
+.profile-list .profile-description, .profile-list .profile-wrapper {
   padding:10px  !important;
-  border: 3px solid #eee !important;
+  background-color:#f8f8f8 !important;
+  min-height:180px;
+  border:2px solid #eee;
+  border-bottom: 1px !important;
+}
+
+.profile-list .profile-description {
+  border-left:2px !important;
 }
 
 .new-members-list .our-teachers, .executive-members .our-teachers {
@@ -393,9 +450,214 @@ marquee{
 }
 
 .newspaper-section .row span img {
-  height:300px;
-  width:100%;
+  height:300px!important;
+  width:100%!important;
 }
 .event-post  span img{
  height:300px!important; 
 }
+
+.small.dropdown-menu{
+ 
+  margin-left:410px!important;
+  
+}
+.small.dropdown-menu li a{
+ color:black;
+  
+}
+.topBar ul li{
+  display:block!important;
+  padding:0px !important;
+  text-align:center !important;
+}
+.jssocials-shares{
+  display:none!important;
+}
+
+
+.my-profile table tbody tr:nth-child(2n) {
+  background-color:#fff !important;
+}
+
+.my-profile table tbody tr td {
+  border-top:0px !important;
+  width:100px !important;
+  text-align:center !important;
+}
+
+.my-profile .profile-description {
+  margin-bottom:10px !important;
+}
+
+.my-profile table {
+   width:865px !important;
+}
+
+.member-profile .col-lg-4 img{
+  border-radius:50%!important;
+  border:2px solid #e68a00!important;
+  width:180px!important;
+  height:180px!important;
+  margin-left:30px!important;
+  margin-top:15px!important ;
+  
+}
+
+
+.member-profile .col-lg-4{
+  border:1px solid white!important;
+  border-bottom:5px solid #e68a00!important;
+  margin-bottom:20px !important;
+  border-top:5px solid #e68a00!important;
+  box-shadow: 5px #f1f1f1!important;
+  background-color:#f2f2f2!important;
+  border-radius:0 10% 0 10%;
+  min-height:400px !important;
+  width:24%!important;
+  margin-right:10px!important;
+}
+
+div.widget.categories h3{
+	margin-left:30px!important;
+}
+div.newspaper-img{
+  text-align:center!important;
+}
+.list-type {
+    display: none!important;
+}
+
+\\.enquiry-form{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid #eee;
+}
+
+.enquiry-form .textbox{
+  border-bottom: 1px solid #dddddd !important;
+}
+
+.enquiry-form {
+   border: 1px solid #dddddd !important;
+   padding:0px !important;
+}
+
+.enquiry-form button {
+  width:100% !important;
+  text-align: center !important;
+}
+
+.enquiry-form form {
+  padding:10px !important;
+}
+  
+
+
+.item-size div p{
+	height: 150px;
+  	width:100px;
+ 
+}
+.item-size div{
+	overflow:hidden;
+}
+
+.newspaper-img a{
+	background-color:#e68a00!important;
+  	color:white;
+}
+.section-title ul{
+  list-style:none!important;
+}
+
+.profile-form .atk-button{
+ 		background-color:#e68a00!important;
+  		color:white!important;
+  		padding:10px!important;
+  		border-radius:10%!important;
+  		width:30%!important;
+}
+.member-profile ul.pagination{
+  margin-top:5px!important;
+  text-align:center!important;
+ 
+}
+.input-group-addon{
+ height:10px!important; 
+}
+  
+.gallery-image img {
+	height:250px;
+  	width:320px;
+}
+.news-post .post-content {
+  height:300px !important;
+  overflow:hidden !important;
+}
+.condolence-list .teacher-meta{
+   height:296px !important;
+  overflow:hidden !important;
+  
+}
+.footer-blog .col-lg-6 {
+  height:215px !important;
+  overflow:hidden !important;
+  
+}
+.news-post img{
+ height:156px !important;
+ width:246px !important;
+}
+.event1-post .event{
+  height:290px!important;
+  width:518px !important;
+  overflow:hidden !important;
+}
+
+.input-group input{
+	margin : 0 0 0rem!important;
+}
+.member-profile .col-lg-4  .pb_edit{
+ 
+ 
+  margin-bottom:2px !important;
+  width:30% !important;
+  border-radius:10% !important;
+  border: 2px solid white !important;
+ 	background-color:#22A7F0 !important;
+  
+}
+.member-profile .col-lg-4 .pb_edit i{
+ color:white !important;
+  
+}
+.member-profile .col-lg-4 .person-status{
+ float:right !important;
+  
+  
+  text-align:center !important;
+	
+width: 70px !important;
+height: 25px;
+  -webkit-transform: rotate(30deg)!important;
+  -moz-transform:    rotate(30deg)!important;
+  -ms-transform:     rotate(30deg)!important;
+  -o-transform:      rotate(30deg)!important;
+position: relative !important;
+background-color:#e68a00 !important;
+  color:white !important;
+  left: 15px;
+  top: 10px;
+ 
+  border-radius: 0 10% 0 0 !important;
+ 
+  
+}
+.member-profile .col-lg-4 p.person-address{
+ width:250px !important;
+  white-space:nowrap !important;
+  overflow: hidden !important;
+  text-overflow:ellipsis!important;
+}
+
+

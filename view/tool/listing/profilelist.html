@@ -17,21 +17,25 @@
         {/}
       </div>
       <div class="col-md-9 col-sm-12 col-xs-12 col-lg-9 profile-description">
-        {name_wrapper}
-          <h3 class="person-name">{$name}</h3>
-        {/}
-		{age_wrapper}
-          <p class="person-age">{$age}</p>
-        {/}
-		{gender_wrapper}
-          <p class="gender">{$gender}</p>
-        {/}
-        {DOB_wrapper}
-          <p class="dob">{$DOB}</p>
-        {/}
-        {gautra_wrapper}
-          <p class="gautra">{$gautra}</p>
-        {/}
+          {name_wrapper}
+            <h3 class="person-name">{$name}</h3>
+          {/}
+		<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+          {age_wrapper}
+            <p class="person-age">{$age}</p>
+          {/}
+          {gender_wrapper}
+            <p class="gender">{$gender}</p>
+          {/}
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
+          {DOB_wrapper}
+            <p class="dob">{$dob}</p>
+          {/}
+          {gautra_wrapper}
+            <p class="gautra">{$gautra}</p>
+          {/}
+		</div>
       </div>
     </div>
 

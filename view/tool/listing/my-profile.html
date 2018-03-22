@@ -1,0 +1,72 @@
+<div id="{$_name}" class="xepan-grid main-box clearfix atk-table atk-table-zebra atk-table-bordered atk-table atk-table-zebra atk-table-bordered {$class}">{Pannel}
+  <header class="main-box-header clearfix atk-actions  {$class} ">
+    <div style="100%" class="filter-block">
+      <div class="pull-right">{$grid_buttons} </div>
+
+        <div class="form-group pull-right xepan-filter-form">
+          {quick_search_wrapper}
+          <span class="form-control pull-left">
+            {$quick_search}
+              {quick_search_icon}<i class="fa fa-search search-icon"></i>{/}
+          </span>
+          {/}
+        </div>
+      </div>
+  </header>{/Pannel}
+  {rows}
+  {row}
+    <div class="row single-list my-profile">
+      <div class="col-md-3 col-sm-12 col-xs-12 col-lg-3 profile-wrapper">
+        {image_wrapper}
+          <img class="person-img center-block" src="{$image}">
+        {/}
+      </div>
+
+  <div class="main-box-body clearfix table my-profile">
+    <div class="table-responsive">
+      <table style="width:100%" class="table user-list table-hover">{header}
+        <thead>{cols}{col}
+              
+              {/}{/}
+        </thead>{/}
+        <tbody>
+		<div class="col-md-9 col-sm-12 col-xs-12 col-lg-9 profile-description">
+          <tr data-id="{$row_id}" class="{$odd_even}">
+           </tr>
+            {cols}{col}
+			
+           <tr><td>Name</td>
+            <td>{$name}</td></tr>
+            <tr><td>Gender</td>
+            <td>{$gender}</td></tr>
+            <tr><td>Date Of Birth</td>
+            <td>{$dob}</td></tr>
+            <tr><td>Address</td>
+            <td>{$address}</td></tr>
+            <tr><td>Contact Number</td>
+            <td>{$contact_no}</td></tr>
+            <tr><td>Gautra</td>
+            <td>{$gautra}</td></tr>
+            {/}{/}
+          
+          {not_found}
+          <tr>
+            <td class="atk-padding-large atk-align-center"><span class="atk-label atk-effect-warning"><span class="icon-attention">&nbsp;{$not_found_message}</span></span></td>
+          </tr>{/}
+        </tbody>{totals}
+        <tfoot>
+          <tr class="totals">
+            {cols}{col}
+            <td>
+            {$content}
+            </td>
+            {/}{/}
+          </tr>
+        </tfoot>{/}
+      </table>{$Paginator}
+	</div>
+{/}{/}
+    </div>
+  </div>
+</div>
+        
